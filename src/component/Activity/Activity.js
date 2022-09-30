@@ -13,6 +13,7 @@ const Activity = (props) => {
             <p>Time: {time} Minutes</p>
             <p>Minimum Age: {min_age} Years</p>
             </div>
+            <button className='btn'>Add to List</button>
         </div>
     );
 };
