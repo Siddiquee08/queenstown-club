@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import '../Main/Main.css';
+import Side from '../Side/Side';
 const Main = () => {
     const [activities, setActivities] = useState([])
     useEffect(() => {
@@ -18,8 +19,8 @@ const Main = () => {
                     </Activity>)
                 }
             </div>
-            <div className='cart'>
-                <h3>Cart</h3>
+            <div>
+            <Side></Side>
             </div>
         </div>
     );
