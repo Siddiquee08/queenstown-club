@@ -61,10 +61,12 @@
     .cart{
         font-size: 2vh;
     }
+
     .cart img {
         height: 15vh;
     }
     .complete{
         margin-left: 10%;
     }
+
 }
