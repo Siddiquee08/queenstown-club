@@ -14,7 +14,10 @@
     color: antiquewhite;
 }
 
-@media screen and (max-width: 772px){
+@media screen and (max-width: 600px){
+    .header{
+        width: auto;
+    }
     .header h2{
         font-size: 105%;
     }
