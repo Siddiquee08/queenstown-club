@@ -13,5 +13,7 @@
 @media screen and (max-width: 600px){
     .adventure{
         grid-template-columns: repeat(1, 1fr);
+        margin-right: 30x;
     }
+    
 }

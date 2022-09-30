@@ -21,6 +21,7 @@ const Side = () => {
                 <p>Height: 182 cm</p>
                 <p>Age: 25 Years</p>
             </div>
+            <h4>Add a Break</h4>
             <div className='break'>
                 <button onClick = {clickToMagic}>10s</button>
                 <button onClick={clickToMagic}>20s</button>
@@ -28,7 +29,7 @@ const Side = () => {
 
             </div>
             <div className='details'>
-                <h2>Activity Details</h2>
+                <h4>Activity Details</h4>
                 <p>Active Time: </p>
                 <p>Break Time: </p>
             </div>

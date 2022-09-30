@@ -26,7 +26,11 @@
     background-color: antiquewhite;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 45px;
+}
+.cart h4{
+    text-align: center;
+    text-decoration: underline;
 }
 .break{
     display: flex;
@@ -42,6 +46,8 @@
 }
 .details{
     margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 45px;
 }
 .complete{
     margin-left: 30%;
