@@ -16,6 +16,10 @@ const Side = (props) => {
     const addFourty = () => {
       setTen(40)  
     }
+
+    const completed = () => {
+        console.log('Done!')
+    }
     
     return (
         <div className='cart'>
@@ -46,7 +50,7 @@ const Side = (props) => {
                 <p>Active Time: {props.side} <small>Minutes</small> </p>
                 <p>Break Time: {ten} <small>Seconds</small></p>
             </div>
-            <button className='complete'>Activity Completed</button>
+            <button onClick={completed} className='complete'>Activity Completed</button>
         </div>
     );
 };
