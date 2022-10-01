@@ -3,6 +3,7 @@
     align-items: center;
     height: 80px;
     background-color: salmon;
+    max-width: 1920px;
 }
 
 .header img {

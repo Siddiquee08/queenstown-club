@@ -1,16 +1,17 @@
 .activity-container {
-    width: 300px;
     height: 500px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .activity-container img{
 height: 286px;
 width: 100%;
 border-radius: 15px;
+margin-bottom: 20px;
 }
-
 .btn{
     border: none;
     padding: 10px 20px;
@@ -18,7 +19,10 @@ border-radius: 15px;
     color: whitesmoke;
     border-radius: 10px;
     margin-left: 25%;
+    margin-top: 30px;
+    bottom: 0;
 }
 .btn:hover {
     background-color: aquamarine;
+    cursor: pointer;
 }
