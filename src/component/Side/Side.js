@@ -13,6 +13,9 @@ const Side = (props) => {
     const addThirty = () => {
       setTen(30)  
     }
+    const addFourty = () => {
+      setTen(40)  
+    }
     
     return (
         <div className='cart'>
@@ -35,12 +38,13 @@ const Side = (props) => {
                 <button onClick={addTen}>10s</button>
                 <button onClick={addTwenty}>20s</button>
                 <button onClick={addThirty}>30s</button>
+                <button onClick={addFourty}>40s</button>
 
             </div>
             <div className='details'>
                 <h4>Activity Details</h4>
-                <p>Active Time: {props.side} </p>
-                <p>Break Time: {ten} </p>
+                <p>Active Time: {props.side} <small>Minutes</small> </p>
+                <p>Break Time: {ten} <small>Seconds</small></p>
             </div>
             <button className='complete'>Activity Completed</button>
         </div>
