@@ -18,5 +18,8 @@
     .adventure{
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .side{
+        position: sticky;
+        top: 0;
+    }
 }

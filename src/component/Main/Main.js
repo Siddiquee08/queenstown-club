@@ -19,7 +19,7 @@ const Main = () => {
                     </Activity>)
                 }
             </div>
-            <div>
+            <div className='side'>
             <Side></Side>
             </div>
         </div>
