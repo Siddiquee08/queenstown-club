@@ -2,7 +2,8 @@ import React from 'react';
 import '../Activity/Activity.css'
 
 const Activity = (props) => {
-    const {picture, time, min_age, name} = props.activity
+    const{addToSide} = props
+    const { picture, time, min_age, name} = props.activity
     return (
         <div className='activity-container'>
             <div>
@@ -13,7 +14,7 @@ const Activity = (props) => {
             <p>Time: {time} Minutes</p>
             <p>Minimum Age: {min_age} Years</p>
             </div>
-            <button className='btn'>Add to List</button>
+            <button className='btn' onClick={() => addToSide(props.activity.time)}>Add to List</button>
         </div>
     );
 };

@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Side.css'
 
-const Side = () => {
-    const clickToMagic = () => {
-        console.log('voila')
+const Side = (props) => {
+    const [ten, setTen] = useState([])
+
+    const addTen = () => {
+      setTen(10)  
     }
+    const addTwenty = () => {
+      setTen(20)  
+    }
+    const addThirty = () => {
+      setTen(30)  
+    }
+    
     return (
         <div className='cart'>
             <div className='container'>
@@ -23,15 +32,15 @@ const Side = () => {
             </div>
             <h4>Add a Break</h4>
             <div className='break'>
-                <button onClick = {clickToMagic}>10s</button>
-                <button onClick={clickToMagic}>20s</button>
-                <button onClick={clickToMagic}>30s</button>
+                <button onClick={addTen}>10s</button>
+                <button onClick={addTwenty}>20s</button>
+                <button onClick={addThirty}>30s</button>
 
             </div>
             <div className='details'>
                 <h4>Activity Details</h4>
-                <p>Active Time: </p>
-                <p>Break Time: </p>
+                <p>Active Time: {props.side} </p>
+                <p>Break Time: {ten} </p>
             </div>
             <button className='complete'>Activity Completed</button>
         </div>
